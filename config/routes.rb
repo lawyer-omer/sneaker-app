@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sneakers
   get 'site/index'
   post 'site/add', as: :add
   post 'site/remove', as: :remove
